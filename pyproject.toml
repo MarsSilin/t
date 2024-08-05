@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "tink-stag"
+version = "0.1.0"
+description = ""
+authors = ["MarsSilin <markstas55@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+trl = "^0.9.6"
+datasets = "^2.20.0"
+torchvision = "0.18.0"
+torchaudio = "2.3.0"
+torch = "2.3.0"
+wandb = "^0.17.5"
+fastparquet = "^2024.5.0"
+
+
+[[tool.poetry.source]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu121"
+priority = "explicit"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

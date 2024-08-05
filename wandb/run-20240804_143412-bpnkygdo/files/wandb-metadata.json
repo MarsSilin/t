@@ -1,0 +1,46 @@
+{
+    "os": "Windows-10-10.0.18363-SP0",
+    "python": "3.11.8",
+    "heartbeatAt": "2024-08-04T11:34:13.340090",
+    "startedAt": "2024-08-04T11:34:12.663090",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "WIN-D534VD8LUV9",
+    "username": "Admin",
+    "executable": "c:\\ml_proj\\tink_stag\\.venv\\Scripts\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 0.0,
+        "min": 0.0,
+        "max": 4691.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 0.0,
+            "min": 0.0,
+            "max": 4691.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 930.8828086853027,
+            "used": 818.3922882080078
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4060 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 63.14638137817383
+    }
+}
